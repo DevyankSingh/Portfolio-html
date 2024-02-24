@@ -1,0 +1,214 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>DEVYANK SINGH PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 10;
+            padding: 10;
+        }
+
+        body {
+            background-color: rgb(3, 3, 40);
+            color: rgb(255, 255, 255);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', bold, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(4, 4, 95);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            font-size: xx-large;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 24px;
+
+        }
+
+        .left {
+            font-size: 3.5rem;
+            justify-content: left;
+        }
+
+        .right {
+            font-size: 1.5rem;
+            justify-items: flex-end;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+        }
+
+        .firstsection>div {
+            width: 35%;
+            justify-content: left;
+        }
+
+        .leftsection {
+
+            width: 53px;
+            font-size: 3.9rem;
+
+
+        }
+
+        .rightsection img {
+            width: 90%;
+            height: 85%;
+
+        }
+
+        nav ul li button {
+            background-color: #065a99;
+            border: none;
+            color: white;
+            padding: 8px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            border-radius: 21%;
+        }
+
+        nav ul li button {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav ul li button:hover {
+            color: rgb(14, 169, 225)
+        }
+
+        .yellow {
+            color: rgb(240, 240, 5);
+        }
+
+        .orange {
+            color: aquamarine;
+        }
+
+        .bold {
+            font-weight: 400;
+            color: blanchedalmond;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin:auto;
+            height: 200vh;
+            font-size: 1.8rem;
+        }
+        main hr{
+            background:rgb(31, 127, 244) ;
+            border: 0;
+            height: .25em; ;
+            margin:40px 80px ;
+        }
+        .footer{
+            background-color: rgb(13, 2, 53);
+            height: 189px;
+            font-size: 1.4rem;
+            color: #d4dcdd;
+            display: flex;
+            margin: 12px 2px;
+            justify-content:space-around;
+        }
+        footer ul{
+            list-style: none;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+
+            <div class="left"> <span class="bold">DEVYANK'S PORTFOLIO</span> </div>
+            <div class="right">
+
+                <ul>
+                    <a href="http://127.0.0.1:3000/Portfolio/index.html">
+                        <li><button>HOME</button></li>
+                    </a>
+                    <a href="./about.html">
+                        <li><button>ABOUT</button></li>
+                    </a>
+                    <a href="./services.html">
+                        <li><button>SERVICES</button></li>
+                    </a>
+                    <a href="./projects.html">
+                        <li><button>PROJECTS</button></li>
+                    </a>
+                    <a href="./contacme.html">
+                        <li><button>CONTACT ME</button></li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, I am <span class="orange"> Devyank Singh</span>
+                <div>and I know
+                    <span id="element"></span>
+                    </div>
+                    </div>
+                    <div class="rightsection"><img src="web-development-1-1.png" alt="web-development"></div>
+                        </section>
+                    
+                            
+                        </div>
+                        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Devyank's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SERVICES</li>
+                    <li>PROJECTS</li>
+                    <li>CONTACT ME</li>
+                </ul>
+            </div>
+            <div class="text-center">
+                <a href="http://127.0.0.1:3000/Portfolio/index.html">www.devyanksportfolio.com</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Development', 'Java','Python'],
+          typeSpeed: 100,
+        });
+      </script>
+</body>
+
+</html>
